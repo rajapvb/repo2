@@ -4,9 +4,9 @@ metadata:
   name: nginx-deployment
   labels:
     app: nginx
-  namespace: repo2
+  namespace: raja2
 spec:
-  replicas: 3
+  replicas: 1
   selector:
     matchLabels:
       app: nginx
